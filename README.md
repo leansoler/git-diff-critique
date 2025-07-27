@@ -58,7 +58,7 @@ uv run pytest
 This will discover and run all tests in the `tests/` directory. Ensure your virtual environment is activated and dependencies are installed.
 
 ## Contributing
-- Follow the coding and review guidelines in `.github/copilot-instructions.md`.
+- Follow the coding and review guidelines in `.gemini/context.md`.
 - Use `uv` for all dependency management.
 - Ensure all code passes Ruff linting before submitting.
 

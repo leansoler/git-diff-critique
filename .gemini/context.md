@@ -4,8 +4,8 @@
 This repository implements an agent using Google ADK that receives a git diff and provides code review recommendations as a Senior Developer. Linting is enforced with Ruff.
 
 ## Coding Guidelines
-- Use [Google ADK](https://google.github.io/adk-docs/) for agent and tool development.
-- All linting must pass with [Ruff](https://docs.astral.sh/ruff/). Follow PEP8 and fix all warnings/errors.
+- Use Google ADK for agent and tool development.
+- All linting must pass with Ruff. Follow PEP8 and fix all warnings/errors.
 - Write clear, maintainable, and well-documented Python code.
 - Use type hints for all function signatures.
 - Prefer functional decomposition: keep functions small and focused.

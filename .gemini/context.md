@@ -31,6 +31,17 @@ This repository implements an agent using Google ADK that receives a git diff an
 - "Review this git diff and provide recommendations."
 - "What improvements would you suggest for this code change?"
 
+## Expected Output
+- The agent should return a dictionary.
+- On success, the dictionary should be:
+  ```json
+  {"status": "success", "recommendations": ["recommendation 1", "recommendation 2"]}
+  ```
+- On failure, the dictionary should be:
+  ```json
+  {"status": "error", "error_message": "Description of the error."}
+  ```
+
 ## Additional Notes
 - Sensitive credentials (API keys, etc.) must not be committed.
 - Update this file if project conventions change.

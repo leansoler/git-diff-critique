@@ -24,13 +24,15 @@ This project provides an agent that reviews git diffs and offers actionable, sen
 3. **Configure your API key:**
    - Edit `git_diff_critique_agent/.env` and set your Google API key and region.
 
-## Usage
+## Execution
+This agent can be executed from the command line or through the Google ADK web interface.
 
-### As a CLI tool
-You can pipe a git diff directly to the agent for review:
+### Command-Line
+The agent reads a git diff from standard input. You can pipe the output of `git diff` directly to the script for review.
 
+**Review staged changes:**
 ```sh
-git diff | python main.py
+git diff --staged | python main.py
 ```
 
 If no input is detected, an error message will be shown.
